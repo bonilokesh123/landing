@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="one" background="https://wallpapercave.com/wp/wp3394397.jpg">
+    <header>
+        <nav class="three">
+           <div class="two"> TRAVEL</div>
+           <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Hill station</a>
+            <a href="#">Best offers</a>
+            <a href="#">our sites</a>
+            <a href="#">Contact</a>
+
+
+           </div>
+           <div class="register">
+            <a href="#">Register</a>
+           </div>
+        </nav>
+    </header>
+    
+    <div class="photo1">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.M3Ye1jcNRWHwBimTEwCJIgAAAA&pid=Api&P=0&h=180">
+    </div>
+    <div class="photo2">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.oAY-Ma3HVB34kZc9-3mj1QHaEc&pid=Api&P=0&h=180">
+    </div>
+    <div class="photo3">
+        <img src="http://4.bp.blogspot.com/-7o2ulkHJvrM/TkeRYkaRODI/AAAAAAAAAvg/yXRTXVMrkHw/s1600/maldives.jpg">
+    </div>
+    <div class="photo4">
+        <img src="http://pix6.agoda.net/hotelImages/300/300397/300397_17040717400052195900.jpg?s=480x360">
+    </div>
+   
+</body>
+</html>
+<style>
+    .one{
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .three{
+        width: 100%;
+        height: 100px;
+        color: white;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .two{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration:none;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+    .register a{
+        text-decoration: dashed;
+        color: white;
+        background-color: indianred;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 3px;
+
+    }
+
+    .register a:hover{
+        background-color: white;
+        color: black;
+        transition-duration: 0.4s;
+    }
+
+    .menu a:hover{
+        background: indianred;
+        color: black;
+        transition-duration: 0.4s;
+        font-size: 20px;
+        border-radius: 8px;
+        
+       
+    }
+    .photo1{
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        animation: slide1 12s linear infinite;
+        border-radius: 5px;
+        
+    }
+    .photo2{
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        animation: slide2 12s linear infinite;
+        
+    }
+    .photo3{
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        animation: slide3 12s linear infinite;
+        
+    }
+    .photo4{
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        animation: slide4 12s linear infinite;
+        
+    }
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    70%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+
+}  
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    70%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}    
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    70%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+} 
+@keyframes slide4{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    70%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+
+}    
+   
+
+</style>
